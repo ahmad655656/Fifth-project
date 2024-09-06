@@ -4,7 +4,7 @@ import Navbar from './Section/Navbar/Navbar';
 
 function App() {
   return (
-    <div className="relative m-auto w-maxWidth h-maxHeight">
+    <div className="relative m-auto overflow-x-hidden no-scrollbar w-maxWidth sm:max-md:w-widthMobile sm:max-md:h-heightMobile h-maxHeight">
       <Navbar />
       <Home />
       <Footer />
