@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/Fifth-project/static/css/main.49ccb5bd.css",
+    "main.js": "/Fifth-project/static/js/main.56eaa6a5.js",
+    "static/js/453.ed3810f9.chunk.js": "/Fifth-project/static/js/453.ed3810f9.chunk.js",
+    "static/media/photoHome.png": "/Fifth-project/static/media/photoHome.c2b294825d251763e1d8.png",
+    "static/media/Frame 64.png": "/Fifth-project/static/media/Frame 64.b68f057ce53da41d9c12.png",
+    "static/media/Frame 62.png": "/Fifth-project/static/media/Frame 62.64f71ac64ee52d60768c.png",
+    "static/media/Frame 61.png": "/Fifth-project/static/media/Frame 61.c8fb4c6af5d3ee11d31f.png",
+    "static/media/Frame 63.png": "/Fifth-project/static/media/Frame 63.891a9ec9dd2f13167c12.png",
+    "static/media/Frame 34.png": "/Fifth-project/static/media/Frame 34.fc89cc48b7f1d14888c8.png",
+    "static/media/Frame 32 (2).png": "/Fifth-project/static/media/Frame 32 (2).bf8d337be9e85a9f768b.png",
+    "static/media/Frame 33 (2).png": "/Fifth-project/static/media/Frame 33 (2).a9ce72004acbff8d690b.png",
+    "static/media/Frame 33.png": "/Fifth-project/static/media/Frame 33.17a8d490ef7e701a5d47.png",
+    "static/media/Frame 38.png": "/Fifth-project/static/media/Frame 38.a19d01c12e39c52db981.png",
+    "static/media/Frame 34 (2).png": "/Fifth-project/static/media/Frame 34 (2).d252050c76eddbdb6ac1.png",
+    "static/media/Frame 38 (2).png": "/Fifth-project/static/media/Frame 38 (2).c50b063cf9765875c7ff.png",
+    "static/media/Frame 32.png": "/Fifth-project/static/media/Frame 32.baa7d7b54b3efa8ece92.png",
+    "static/media/Zara-removebg-preview.png": "/Fifth-project/static/media/Zara-removebg-preview.5da02ee3cfe8296abf43.png",
+    "static/media/Gucci-removebg-preview.png": "/Fifth-project/static/media/Gucci-removebg-preview.0ab93924647a7639c416.png",
+    "static/media/Versace-removebg-preview.png": "/Fifth-project/static/media/Versace-removebg-preview.1dc44d1a088afe460564.png",
+    "index.html": "/Fifth-project/index.html",
+    "main.49ccb5bd.css.map": "/Fifth-project/static/css/main.49ccb5bd.css.map",
+    "main.56eaa6a5.js.map": "/Fifth-project/static/js/main.56eaa6a5.js.map",
+    "453.ed3810f9.chunk.js.map": "/Fifth-project/static/js/453.ed3810f9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.49ccb5bd.css",
+    "static/js/main.56eaa6a5.js"
+  ]
+}
