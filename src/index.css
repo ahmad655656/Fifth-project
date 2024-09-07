@@ -5,6 +5,11 @@
 
 #root{
   width: 1440px;
+  height: 3470px;
+}
+.body{
+  height: 3470px;
+  width: 1440px;
 }
 /* @layer base {
     @font-face {
