@@ -3,6 +3,9 @@
 @tailwind components;
 @tailwind utilities;
 
+#root{
+  width: 1440px;
+}
 /* @layer base {
     @font-face {
       font-family: 'Integral CF';
