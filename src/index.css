@@ -4,30 +4,29 @@
 @tailwind utilities;
 
 #root{
-  width: 1440px;
-  height: 3470px;
+  overflow-x: hidden;
 }
-.body{
-  height: 3470px;
-  width: 1440px;
+div:where(.swal2-container) .swal2-html-container{
+  padding: 0;
+  border-radius: 30px;
 }
-/* @layer base {
-    @font-face {
-      font-family: 'Integral CF';
-      font-style: bold;
-      font-weight: 400;
-      font-display: swap;
-      src: url('/fonts/Roboto.woff2') format('woff2');
-    }
-  } */
+div:where(.swal2-container) div:where(.swal2-popup){
+  border-radius: 30px;
+}
+html, body, #root {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  outline: none !important;
+}
    
-  @layer utilities {
+  @layer components {
     .no-scrollbar::-webkit-scrollbar {
       display: none;
     }
+
     .no-scrollbar {
       scrollbar-width: none;
       -ms-overflow-style: none;
     }
   }
-  
