@@ -397,31 +397,3 @@ export default function ProductDetails() {
     </div>
   );
 }
-
-/* 
-3. What types of cars do you offer?
-We only offer the latest models of Mercedes, BMW, and Range Rover cars. This includes sports cars, luxury cars, and SUVs.
-
-4. Do you offer car test drives?
-Since we do not sell cars, we do not offer a test drive service. You can contact the authorized dealers to arrange a test drive.
-1. What is the purpose of the exhibition?
-Our showroom is dedicated to displaying the latest models of Mercedes, BMW, and Range Rover cars and providing comprehensive information about their technical specifications and performance, without selling cars.
-
-2. Can I buy a car through the showroom?
-No, we do not sell cars. We only display Mercedes, BMW, and Range Rover models to provide visitors with detailed information about them.
-9. Does the exhibition provide any information about after-sales services?
-Yes, we display information about maintenance and warranty services available from official Mercedes, BMW, and Range Rover dealers, but you must contact the dealers directly to carry out these services.
-
-10. What are the exhibition’s opening hours?
-The gallery is open from 10am to 8pm from Saturday to Thursday.
-7. What other services does the exhibition provide?
-In addition to showcasing the cars, we provide information on the latest embedded technologies, new technological features, and safety levels in Mercedes, BMW, and Range Rover vehicles.
-
-8. How can I find out the latest models available?
-You can visit the showroom periodically, or follow our website, which is updated regularly to include the latest cars on display and the latest technologies offered by brands.
-5. Is there information about prices in the exhibition?
-Yes, we provide approximate price information based on the local and global market, but the gallery does not participate in buying or selling.
-
-6. Can I get a detailed catalog of cars?
-Yes, we offer catalogs containing comprehensive information about the specifications of each Mercedes, BMW, and Range Rover model. You can obtain an electronic or printed copy of the exhibition.
-*/

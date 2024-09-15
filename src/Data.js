@@ -749,3 +749,61 @@ export const RangeRoverModels2024 = [
     images: [rsv1, rsv2, rsv3, rsv4, rsv5, rsv6, rsv7, rsv8, rsv9],
   },
 ];
+export const Fqs = [
+  {
+    id: 0,
+    question: 'What is the purp ose of the exhibition?',
+    answer: 'Our showroom is dedicated to displaying the latest models of Mercedes, BMW, and Range Rover cars and providing comprehensive information about their technical specifications and performance, without selling cars.',
+  },
+  {
+    id: 1,
+    question: 'Can I buy a car through the showroom?',
+    answer: 'No, we do not sell cars. We only display Mercedes, BMW, and Range Rover models to provide visitors with detailed information about them.',
+  },
+  {
+    id: 2,
+
+    question: 'What types of cars do you offer?',
+    answer: 'We only offer the latest models of Mercedes, BMW, and Range Rover cars. This includes sports cars, luxury cars, and SUVs.',
+  },
+  {
+    id: 3,
+
+    question: 'Do you offer car test drives?',
+    answer: 'Since we do not sell cars, we do not offer a test drive service. You can contact the authorized dealers to arrange a test drive.',
+  },
+  {
+    id: 4,
+    question: 'Is there information about prices in the exhibition?',
+    answer: 'Yes, we provide approximate price information based on the local and global market, but the gallery does not participate in buying or selling.',
+  },
+  {
+    id: 5,
+
+    question: 'Can I get a detailed catalog of cars?',
+    answer: 'Yes, we offer catalogs containing comprehensive information about the specifications of each Mercedes, BMW, and Range Rover model. You can obtain an electronic or printed copy of the exhibition.',
+  },
+  {
+    id: 6,
+    question: 'What other services does the exhibition provide?',
+    answer: 'In addition to showcasing the cars, we provide information on the latest embedded technologies, new technological features, and safety levels in Mercedes, BMW, and Range Rover vehicles.',
+  },
+  {
+    id: 7,
+
+    question: 'How can I find out the latest models available?',
+    answer: 'You can visit the showroom periodically, or follow our website, which is updated regularly to include the latest cars on display and the latest technologies offered by brands.',
+  },
+  {
+    id: 8,
+
+    question: 'Does the exhibition provide any information about after-sales services?',
+    answer: 'Yes, we display information about maintenance and warranty services available from official Mercedes, BMW, and Range Rover dealers, but you must contact the dealers directly to carry out these services.',
+  },
+  {
+    id: 9,
+
+    question: 'What are the exhibition’s opening hours?',
+    answer: 'The gallery is open from 10am to 8pm from Saturday to Thursday.',
+  },
+]

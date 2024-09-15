@@ -44,6 +44,7 @@ module.exports = {
       backgroundImage: {
         bgHome:"url(https://lh3.googleusercontent.com/-Q_bnzAvIY5k/Zp96YjEJJTI/AAAAAAAAOIg/RWCc21NEDccKVDfX8BzHb0lV5zMZdGoowCNcBGAsYHQ/w1600/%25D8%25AE%25D9%2584%25D9%2581%25D9%258A%25D8%25A9%2B%25D8%25B3%25D9%258A%25D8%25A7%25D8%25B1%25D8%25A9%2B%25D8%25A8%25D9%2588%25D8%25BA%25D8%25A7%25D8%25AA%25D9%258A%2B%25D8%25AA%25D9%2588%25D8%25B1%25D8%25A8%25D9%258A%25D9%2588%25D9%2586%2B%25D8%25A8%25D8%25AF%25D9%2582%25D8%25A9%2B4K%2B%25D9%2584%25D9%2584%25D8%25A7%25D8%25A8%25D8%25AA%25D9%2588%25D8%25A8%2B%25D9%2588%25D8%25A7%25D9%2584%25D9%2583%25D9%2585%25D8%25A8%25D9%258A%25D9%2588%25D8%25AA%25D8%25B1.jpg)",
         bgHomeMobile:"url(https://cdn.pixabay.com/photo/2020/01/16/18/29/ferrari-4771347_640.jpg)",
+        bgAboutMobile:"/kevin-fitzgerald-Z4CfUB0U9aA-unsplash-removebg-preview.png",
       },
       borderColor: {
         borderButton: "#006B5F",
@@ -53,15 +54,18 @@ module.exports = {
       boxShadow: {
         shadowSign: "4px 20px 18px 3px",
         shadowButton: "2px 2px 10px 2px inset",
+        shadowFqs: "-5px 127px 88px 79px",
       },
       boxShadowColor: {
         shadowSignColor: "[#8B8B8B]/60",
         shadowPhoto: "[#8B8B8B]/60",
         hoverShadow: "[#8B8B8B]/60",
+        shadowFqs: "#1F7A7A",
       },
       animation: {
         animPhoto: "aminPhoto 3s ease-in-out infinite 5s alternate",
         aminComment: "aminComment 4s ease-in-out infinite 5s alternate",
+        aminComment2: "aminComment 4s ease-in-out infinite 5s alternate",
         aminatetext1: "aminatetext1 2s ease-in-out infinite 1s alternate",
         aminatetext2: "aminatetext2 2s ease-in-out infinite 1s alternate",
         aminatetext3: "aminatetext3 2s ease-in-out infinite 1s alternate",
@@ -117,7 +121,7 @@ module.exports = {
           "100%": { height: "100px", width: "100px" },
         },
         aminatetext: {
-          "0%": { transform: "translateX(-1000px)" },
+          "0%": { transform: "translateX(-1300px)" },
           "100%": { transform: "translateX(0px)" },
         },
         aminatetext1: {

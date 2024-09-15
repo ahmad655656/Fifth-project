@@ -34,14 +34,6 @@ export default function Navbar() {
   return (
     <div className="flex flex-col relative bg-bgheaderfooter w-maxWidth h-[100px] sm:max-md:w-widthMobile">
       <div className="relative w-maxWidth  sm:max-md:w-widthMobile sm:max-md:h-[34px] h-[38px] items-center text-center flex-row bg-bgNav flex">
-        <button
-          onClick={() => {
-            localStorage.removeItem("authToken"); // تسجيل الخروج
-            navigate('/login')
-          }}
-        >
-          <Logout className="ml-[50px] " />
-        </button>
         <div className="w-[351px] sm:max-md:w-widthMobile text-firstTextColor sm:max-md:h-[16px] sm:max-md:translate-x-0 sm:max-md:text-center sm:max-md:text-[12px] h-[19px] text-[14px] translate-x-[524px] text-secondTextColor ">
          <Link to='/'>
          Sign up and get 20% off to your first order. Sign Up Now
@@ -49,7 +41,7 @@ export default function Navbar() {
         </div>
         <div className="sm:max-md:hidden flex absolute w-[20px] h-[20px] text-center translate-x-[1300px]">
           <Link to="/login">
-            <PiSignInLight className="flex translate-x-[-87.44px] translate-y-[-2.43px] cursor-pointer text-[40px] text-firstTextColorw-[25.3px] h-[25.3px]" />
+            <Logout className="flex translate-x-[-87.44px] translate-y-[-2.43px] cursor-pointer text-[40px] text-firstTextColorw-[25.3px] h-[25.3px]" />
           </Link>
         </div>
       </div>
@@ -93,6 +85,11 @@ export default function Navbar() {
                 </MenuItem>
               </Link>
             ))}
+            <Link to='/login'>
+            <MenuItem>
+            LogOut
+            </MenuItem>
+            </Link>
           </Menu>
         </Box>
         <Link to="/home">
