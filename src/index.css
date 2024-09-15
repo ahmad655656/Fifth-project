@@ -7,8 +7,8 @@
   overflow-x: hidden;
 }
 div:where(.swal2-container) .swal2-html-container{
-  padding: 0;
-  border-radius: 30px;
+  padding: 0 !important;
+  border-radius: 30px !important;
 }
 div:where(.swal2-container) div:where(.swal2-popup){
   border-radius: 30px;

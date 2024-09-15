@@ -21,7 +21,7 @@ function App() {
   window.onload = () =>{
     Swal.fire({
       html: `
-        <video class="rounded-[30px]" style="width: 100%, height: 100%" muted autoplay controls>
+        <video class="rounded-[30px] sm:max-md:w-[100%] sm:max-md:  " style="width: 100%, height: 100%", muted autoplay controls>
           <source src=${v} type="video/mp4">
           المتصفح الخاص بك لا يدعم تشغيل الفيديو.
         </video>
