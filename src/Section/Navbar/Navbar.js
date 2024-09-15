@@ -41,7 +41,7 @@ export default function Navbar() {
         </div>
         <div className="sm:max-md:hidden flex absolute w-[20px] h-[20px] text-center translate-x-[1300px]">
           <Link to="/login">
-            <Logout className="flex translate-x-[-87.44px] translate-y-[-2.43px] cursor-pointer text-[40px] text-firstTextColorw-[25.3px] h-[25.3px]" />
+            <Logout className="flex translate-x-[-70.44px] translate-y-[-2.43px] cursor-pointer text-[40px] text-firstTextColorw-[25.3px] h-[25.3px]" />
           </Link>
         </div>
       </div>

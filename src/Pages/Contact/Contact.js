@@ -9,7 +9,7 @@ export default function Contact() {
   const [agreed, setAgreed] = useState(false)
 
   return (
-    <div className="pl-[30px] pr-[80px] flex flex-col items-center w-maxWidth m-auto py-24 bg-white min-h-[240vh] sm:py-32">
+    <div className="pl-[30px] sm:max-md:pl-[20px] sm:max-md:w-widthMobile sm:max-md:pr-[30px] pr-[80px] flex flex-col items-center w-maxWidth m-auto py-24 bg-white sm:max-md:min-h-[130vh] min-h-[240vh] sm:py-32">
       <div className="max-w-2xl mx-auto translate-x-[-1000px] animate-aminatetext text-center">
         <h2 className="text-3xl font-bold tracking-tight text-firstTextColor sm:text-4xl">
         <span className="animate-aminatetext1">C</span>
@@ -24,7 +24,7 @@ export default function Contact() {
           Aute magna irure deserunt veniam aliqua magna enim voluptate.
         </p>
       </div>
-      <form action="#" method="POST" className="w-[870px] mt-16 text-secondTextColor sm:mt-20">
+      <form action="#" method="POST" className="w-[870px] sm:max-md:w-[300px] mt-16 text-secondTextColor sm:mt-20">
         <div className="grid grid-cols-1 gap-x-8 gap-y-6 sm:grid-cols-2">
           <div>
             <label htmlFor="first-name" className="block text-sm font-semibold leading-6 text-gray-900">

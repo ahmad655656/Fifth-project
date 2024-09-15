@@ -38,9 +38,9 @@ function App() {
   }
   return (
     <Router>
-      <div className="bg-bgMainSection relative flex flex-col items-center mx-auto lg:overflow-x-hidden lg:no-scrollbar w-maxWidth sm:max-md:w-widthMobile sm:max-md:h-heightMobile min-h-[100vh]  ">
+      <div className="bg-bgMainSection relative flex flex-col items-center mx-auto lg:overflow-x-hidden lg:no-scrollbar w-maxWidth sm:max-md:w-widthMobile min-h-[100vh]  ">
       <Navbar />
-      <div className='w-[100%] flex-1 min-h-[100vh] '>
+      <div className='w-[100%] min-h-[100vh] '>
       <Routes>
         <Route path='/home' element={<ProtectedRoute> <Home /> </ProtectedRoute>} />
         <Route path='/contact' element={<ProtectedRoute><Contact /></ProtectedRoute>} />

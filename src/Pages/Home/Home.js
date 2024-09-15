@@ -1,10 +1,12 @@
 import React, { useContext, useEffect, useState } from "react";
 import { PiStarFourFill } from "react-icons/pi";
-import photo1 from "../../assests/Logos/Versace-removebg-preview.png";
-import photo2 from "../../assests/Logos/Zara-removebg-preview.png";
-import photo3 from "../../assests/Logos/Gucci-removebg-preview.png";
-import photo4 from "../../assests/Logos/Prada-removebg-preview.png";
-import photo5 from "../../assests/Logos/Calvin-removebg-preview.png";
+import photo1 from "../../assests/Logos/mer-removebg-preview.png";
+import photo2 from "../../assests/Logos/bm-removebg-preview.png";
+import photo3 from "../../assests/Logos/lm-removebg-preview.png";
+import photo4 from "../../assests/Logos/bu-removebg-preview.png";
+import photo5 from "../../assests/Logos/fr-removebg-preview.png";
+import photo6 from "../../assests/Logos/ro-removebg-preview.png";
+import photo7 from "../../assests/Logos/hu-removebg-preview.png";
 import { BMWModels2024, HappyCustomers, MercedesBenzModels2024, NewArrivals, RangeRoverModels2024, TopSelling } from "../../Data";
 import Card from "../../Components/Cards/Card";
 import TitleSection from "../../Components/TitleSection/TitleSection";
@@ -24,7 +26,7 @@ export default function Home() {
     }
   }, [navigate]);
   return (
-    <div className="flex flex-col items-center overflow-x-hidden w-maxWidth sm:max-md:w-widthMobile h-maxHeight sm:max-md:h-heightMobile">
+    <div className="flex flex-col items-center overflow-x-hidden lg:h-[750vh] w-maxWidth sm:max-md:w-widthMobile ">
       <div className="w-maxWidth sm:max-md:w-widthMobile sm:max-md:flex sm:max-md:flex-col sm:max-md:gap-[50px] sm:max-md:items-start sm:max-md:pl-0 sm:max-md:h-[883px] sm:max-md:bg-none h-[663px] pl-[50px] pr-[50px] bg-cover bg-right sm:max-md:mt-0 mt-[33px] bg-no-repeat bg-bgHome flex flex-row items-center bg-bgMainSection ">
         <div
           className={`w-[50%] sm:max-md:w-widthMobile sm:max-md:pl-[7px] sm:max-md:h-[50%] sm:max-md:gap-[20px] sm:max-md:mt-0 sm:max-md:py-[20px] h-[663px] mt-[170px] flex gap-[40px] flex-col items-start `}
@@ -68,35 +70,45 @@ export default function Home() {
         <div className="sm:max-md:w-widthMobile sm:max-md:h-[50%] sm:max-md:bg-bgHomeMobile sm:max-md:bg-center sm:max-md:bg-cover sm:max-md:bg-no-repeat hidden sm:max-md:flex">
         </div>
       </div>
-      <div className="w-maxWidth sm:max-md:w-widthMobile sm:max-md:h-[146px] sm:max-md:text-center sm:max-md:items-center sm:max-md:flex-wrap bg-bgNav2 h-[122px] sm:max-md:gap-[10px] sm:max-md:justify-normal sm:max-md:pl-0 sm:max-md:pr-0 flex flex-row justify-between pl-[50px] pr-[120px] items-center ">
+      <div className="w-maxWidth sm:max-md:w-widthMobile sm:max-md:h-[146px] sm:max-md:text-center sm:max-md:items-center sm:max-md:overflow-scroll no-scrollbar bg-bgNav2 h-[122px] sm:max-md:gap-[10px] sm:max-md:pl-0 sm:max-md:pr-0 flex flex-row justify-between pl-[50px] pr-[120px] items-center ">
         <img
           src={photo1}
-          className="w-[166.48px] sm:max-md:w-[116.74px] sm:max-md:h-[50%] "
+          className="w-[150.48px] sm:max-md:w-[100.74px] sm:max-md:h-[50%] "
           alt=""
         />
         <img
           src={photo2}
-          className="w-[91px] sm:max-md:w-[83.81px] sm:max-md:h-[50%]  "
+          className="w-[150px] sm:max-md:w-[115.81px] sm:max-md:h-[45%]  "
           alt=""
         />
         <img
           src={photo3}
-          className="w-[156.48px] sm:max-md:w-[109.39px] sm:max-md:h-[30%] "
+          className="w-[150.48px] sm:max-md:w-[129.39px] sm:max-md:h-[46%] "
           alt=""
         />
         <img
           src={photo4}
-          className="w-[194px] sm:max-md:w-[147px] sm:max-md:h-[50%] "
+          className="w-[150px] sm:max-md:w-[147px] sm:max-md:h-[50%] "
+          alt=""
+        />
+        <img
+          src={photo6}
+          className="w-[150px] sm:max-md:w-[147px] sm:max-md:h-[50%] "
           alt=""
         />
         <img
           src={photo5}
-          className="w-[206.79px] sm:max-md:w-[154.84px] sm:max-md:h-[50%] "
+          className="w-[150.79px] sm:max-md:mr-[6px] h-[120px] sm:max-md:w-[106.84px] sm:max-md:h-[44%] "
+          alt=""
+        />
+        <img
+          src={photo7}
+          className="w-[150.79px] sm:max-md:mr-[6px] h-[120px] sm:max-md:w-[106.84px] sm:max-md:h-[44%] "
           alt=""
         />
       </div>
-      <div className="w-maxWidth h-[100vh] sm:max-md:h-[90vh] flex flex-col sm:max-md:gap-[50px] gap-[40px] items-center  ">
-        <TitleSection className={"text-firstTextColor"} content={"RangeRover"} />
+      <div className="sm:max-md:pl-[20px] w-maxWidth h-[100vh] sm:max-md:h-[90vh] flex flex-col sm:max-md:gap-[50px] gap-[40px] items-center  ">
+        <TitleSection className={"text-firstTextColor sm:max-md:mr-[30px] mr-[50px]"} content={"RangeRover"} />
         <div className="w-maxWidth pl-[50px] overflow-y-visible sm:max-md:pl-[5px] h-[95vh] pr-[50px] sm:max-md:overflow-y-visible sm:max-md:overflow-x-scroll lg:overflow-x-scroll sm:max-md:w-widthMobile no-scrollbar flex flex-row gap-[20px] items-center">
           {RangeRoverModels2024.map((el) => {
             return (
@@ -110,12 +122,12 @@ export default function Home() {
             );
           })}
         </div>
-        <button className="w-[218px] text-textButton h-[52px] sm:max-md:mr-[18px] sm:max-md:w-[358px] sm:max-md:h-[48px]  mt-[10px] p-[12px] rounded-[62px] text-[16px] font-medium border-solid border-[2px] hover:bg-hoverButton hover:text-secondTextColor transition-all ease-in-out duration-500 border-borderButton ">
+        <button className="w-[218px] text-textButton h-[52px] sm:max-md:mr-[34px] sm:max-md:w-[358px] sm:max-md:h-[48px]  mt-[10px] p-[12px] rounded-[62px] mr-[50px] text-[16px] font-medium border-solid border-[2px] hover:bg-hoverButton hover:text-secondTextColor transition-all ease-in-out duration-500 border-borderButton ">
           View All
         </button>
       </div>
-      <div className="w-maxWidth h-[100vh] sm:max-md:h-[90vh] flex flex-col sm:max-md:gap-[50px] gap-[40px] items-center  ">
-        <TitleSection className={"text-firstTextColor"} content={"MercedesBenz"} />
+      <div className="sm:max-md:pl-[20px] w-maxWidth h-[100vh] sm:max-md:h-[90vh] flex flex-col sm:max-md:gap-[50px] gap-[40px] items-center  ">
+        <TitleSection className={"text-firstTextColor sm:max-md:mr-[30px] mr-[50px] "} content={"MercedesBenz"} />
         <div className="w-maxWidth pl-[50px] overflow-y-visible sm:max-md:pl-[5px] h-[95vh] pr-[50px] sm:max-md:overflow-y-visible sm:max-md:overflow-x-scroll lg:overflow-x-scroll sm:max-md:w-widthMobile no-scrollbar flex flex-row gap-[20px] items-center">
           {MercedesBenzModels2024.map((el) => {
             return (
@@ -129,13 +141,13 @@ export default function Home() {
             );
           })}
         </div>
-        <button className="w-[218px] text-textButton h-[52px] sm:max-md:mr-[18px] sm:max-md:w-[358px] sm:max-md:h-[48px]  mt-[10px] p-[12px] rounded-[62px] text-[16px] font-medium border-solid border-[2px] hover:bg-hoverButton hover:text-secondTextColor transition-all ease-in-out duration-500 border-borderButton ">
+        <button className="w-[218px] mr-[50px] text-textButton h-[52px] sm:max-md:mr-[34px] sm:max-md:w-[358px] sm:max-md:h-[48px]  mt-[10px] p-[12px] rounded-[62px] text-[16px] font-medium border-solid border-[2px] hover:bg-hoverButton hover:text-secondTextColor transition-all ease-in-out duration-500 border-borderButton ">
           View All
         </button>
       </div>  
       <span className="w-[1240px] h-[2px] w-widthMobile bg-bgSecondSection mt-[40px] " />
-      <div className="w-maxWidth h-[100vh] sm:max-md:w-widthMobile sm:max-md:h-[95vh] flex flex-col sm:max-md:gap-[60px] gap-[40px] items-center  ">
-        <TitleSection className={"text-firstTextColor"} content={"BMW"} />
+      <div className=" sm:max-md:pl-[20px] w-maxWidth h-[100vh] sm:max-md:w-widthMobile sm:max-md:h-[95vh] flex flex-col sm:max-md:gap-[60px] gap-[40px] items-center  ">
+        <TitleSection className={"text-firstTextColor sm:max-md:mr-[30px] mr-[50px]"} content={"BMW"} />
         <div className="w-maxWidth pl-[50px] overflow-y-visible sm:max-md:pl-[5px] h-[100vh] sm:max-md:overflow-y-visible lg:pr-[70px] sm:max-md:overflow-x-scroll lg:overflow-x-scroll sm:max-md:w-widthMobile no-scrollbar flex flex-row gap-[20px] items-center">
           {BMWModels2024.map((na) => {
             return (
@@ -150,14 +162,14 @@ export default function Home() {
             );
           })}
         </div>
-        <button className="w-[218px] text-textButton sm:max-md:w-[358px] sm:max-md:mr-[18px] sm:max-md:h-[48px] h-[52px] mt-[60px] p-[12px] rounded-[62px] text-[16px] font-medium border-solid border-[2px] hover:bg-hoverButton hover:text-secondTextColor transition-all ease-in-out duration-500 border-borderButton ">
+        <button className="w-[218px] mr-[60px] text-textButton sm:max-md:w-[358px] sm:max-md:mr-[34px] sm:max-md:h-[48px] h-[52px] mt-[60px] p-[12px] rounded-[62px] text-[16px] font-medium border-solid border-[2px] hover:bg-hoverButton hover:text-secondTextColor transition-all ease-in-out duration-500 border-borderButton ">
           View All
         </button>
       </div>
       <div className="w-[1239px] sm:max-md:w-[358px] bg-bgTheardSection sm:max-md:translate-x-[-8px] translate-x-[-50px] sm:max-md:h-[975px] h-[866px] sm:max-md:gap-[30px] bg-bgMainSection flex flex-col rounded-[40px] items-center mt-[90px] ">
         <TitleSection
           className={"w-[687px] mt-[80px] h-[58px] "}
-          content={"BROWSE BY DRESS STYLE"}
+          content={"the pinnacle of luxury"}
         />
         <Grid2
           container

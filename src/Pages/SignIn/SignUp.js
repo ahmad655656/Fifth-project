@@ -13,7 +13,7 @@ export default function SignUp() {
     const users = JSON.parse(localStorage.getItem("users")) || [];
 
     // التحقق إذا كان اسم المستخدم مسجل بالفعل
-    const userExists = users.some(user => user.username === username);
+    const userExists = users.some((user) => user.username === username);
 
     if (userExists) {
       setError("User already exists!");
@@ -28,7 +28,7 @@ export default function SignUp() {
     alert("Sign up successful!");
     return true;
   };
-  const navigate = useNavigate()
+  const navigate = useNavigate();
   // التعامل مع الضغط على زر "Sign In"
   const handleSignUp = (e) => {
     e.preventDefault(); // منع إعادة تحميل الصفحة
@@ -57,10 +57,14 @@ export default function SignUp() {
   }, [i]);
 
   return (
-    <div className="w-maxWidth h-[170vh] flex flex-row justify-between items-center">
-      <div className="flex h-[100%] flex-1 flex-col px-6 py-12 lg:px-8">
-        <div className="mt-10 sm:mx-auto sm:max-md:w-widthMobile sm:max-w-sm">
-          <form action="#" method="POST" className="space-y-6 text-secondTextColor">
+    <div className="w-maxWidth h-[170vh] sm:max-md:h-[100vh] sm:max-md:w-widthMobile flex flex-row sm:max-md:flex-wrap justify-between items-center">
+      <div className="flex h-[100%] sm:max-md:h-[50%] flex-1 items-center flex-col sm:max-md:px-[35px]  py-12 lg:px-8">
+        <div className="mt-10 w-[50%] sm:max-md:w-widthMobile">
+          <form
+            action="#"
+            method="POST"
+            className="space-y-6 w-[100%] text-secondTextColor"
+          >
             <div>
               <label
                 htmlFor="userName"
@@ -80,9 +84,8 @@ export default function SignUp() {
                 />
               </div>
             </div>
-
             <div>
-              <div className="flex items-center justify-between">
+              <div className="flex items-center sm:max-md:w-[78%] w-[90%] justify-between">
                 <label
                   htmlFor="password"
                   className="block text-sm font-medium leading-6 text-gray-900"
@@ -110,7 +113,6 @@ export default function SignUp() {
                 />
               </div>
             </div>
-
             <div>
               <button
                 type="button" // تعديل نوع الزر إلى button لمنع إعادة تحميل الصفحة
@@ -120,22 +122,22 @@ export default function SignUp() {
                 Sign up
               </button>
             </div>
-
-            {error && <p className="text-red-500">{error}</p>} {/* عرض خطأ عند الحاجة */}
+            {error && <p className="text-red-500">{error}</p>}{" "}
+            {/* عرض خطأ عند الحاجة */}
           </form>
 
-          <p className="mt-10 text-sm text-center text-gray-500">
-            Not a member?{" "}
+          <p className="mt-10 text-sm sm:max-md:mr-[95px] text-firstTextColor mr-[40px] text-center">
+            Not a member?
             <a
               href="#"
-              className="font-semibold leading-6 text-indigo-600 hover:text-indigo-500"
+              className="font-semibold leading-6 text-firstTextColor"
             >
               Start a 14 day free trial
             </a>
           </p>
         </div>
       </div>
-      <div className="w-[50%] h-[100%]">
+      <div className="w-[50%] sm:max-md:w-[100%] sm:max-md:mt-[50px] sm:max-md:h-[80%] h-[100%]">
         <img
           src={image}
           alt=""
@@ -146,6 +148,8 @@ export default function SignUp() {
       w-[100%] 
       h-[51%] 
       object-cover 
+            sm:max-md:w-[100%]
+
       rounded-tl-[100px] 
       rounded-bl-[100px] 
       mt-4 
@@ -159,8 +163,8 @@ export default function SignUp() {
       hover:rotate-y-6 
       hover:scale-105 
       hover:shadow-2xl 
-      hover:shadow-shadowSignColor" 
-    style={{ transformStyle: "preserve-3d" }} 
+      hover:shadow-shadowSignColor"
+          style={{ transformStyle: "preserve-3d" }}
         />
       </div>
     </div>

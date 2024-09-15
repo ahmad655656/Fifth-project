@@ -7,14 +7,16 @@ export default function Login() {
   const [password, setPassword] = useState("");
   const [error, setError] = useState("");
 
-  const navigate = useNavigate(); 
+  const navigate = useNavigate();
   // دالة تسجيل الدخول
   const handleLogin = (event) => {
     event.preventDefault();
     // جلب المستخدمين من localStorage
     const users = JSON.parse(localStorage.getItem("users")) || [];
     // التحقق مما إذا كان المستخدم موجود
-    const user = users.find(user => user.username === username && user.password === password);
+    const user = users.find(
+      (user) => user.username === username && user.password === password
+    );
 
     if (user) {
       // تخزين JWT محليًا أو أي نوع من التوكنات (هنا يتم إنشاؤه ببساطة)
@@ -39,10 +41,14 @@ export default function Login() {
   }, [i]);
 
   return (
-    <div className="w-maxWidth h-[170vh] flex flex-row justify-between items-center">
-      <div className="flex h-[100%] flex-1 flex-col px-6 py-12 lg:px-8">
-        <div className="mt-10 sm:mx-auto sm:max-md:w-widthMobile sm:max-w-sm">
-          <form action="#" method="POST" className="space-y-6 text-secondTextColor">
+    <div className="w-maxWidth h-[170vh] sm:max-md:h-[100vh] sm:max-md:w-widthMobile sm:max-md:flex-wrap flex flex-row justify-between items-center">
+      <div className="flex h-[100%] sm:max-md:h-[50%] items-center flex-1 flex-col px-6 sm:max-md:px-[35px] py-12 lg:px-8">
+        <div className="mt-10 w-[50%] sm:max-md:w-widthMobile ">
+          <form
+            action="#"
+            method="POST"
+            className="space-y-6 w-[100%] text-secondTextColor"
+          >
             <div>
               <label
                 htmlFor="userName"
@@ -62,9 +68,8 @@ export default function Login() {
                 />
               </div>
             </div>
-
             <div>
-              <div className="flex items-center justify-between">
+              <div className="flex items-center sm:max-md:w-[78%] w-[90%] justify-between">
                 <label
                   htmlFor="password"
                   className="block text-sm font-medium leading-6 text-gray-900"
@@ -74,7 +79,7 @@ export default function Login() {
                 <div className="text-sm">
                   <a
                     href="#"
-                    className="font-semibold text-indigo-600 hover:text-indigo-500"
+                    className="font-semibold"
                   >
                     Forgot password?
                   </a>
@@ -85,14 +90,13 @@ export default function Login() {
                   id="password"
                   name="password"
                   type="password"
-                  onChange={(e) => setPassword(e.target.value)} 
+                  onChange={(e) => setPassword(e.target.value)}
                   value={password}
                   required
                   className="block w-[300px] rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 sm:text-sm sm:leading-6"
                 />
               </div>
             </div>
-
             <div>
               <button
                 type="submit"
@@ -102,22 +106,22 @@ export default function Login() {
                 Log in
               </button>
             </div>
-
-            {error && <p className="text-red-500">{error}</p>} {/* عرض رسالة الخطأ */}
+            {error && <p className="text-red-500">{error}</p>}{" "}
+            {/* عرض رسالة الخطأ */}
           </form>
 
-          <p className="mt-10 text-sm text-center text-gray-500">
-            Not a member?{" "}
+          <p className="mt-10 text-sm text-firstTextColor sm:max-md:mr-[95px] mr-[40px] text-center ">
+            Not a member?
             <a
               href="#"
-              className="font-semibold leading-6 text-indigo-600 hover:text-indigo-500"
+              className="font-semibold leading-6 text-firstTextColor"
             >
               Start a 14 day free trial
             </a>
           </p>
         </div>
       </div>
-      <div className="w-[50%] h-[100%]">
+      <div className="w-[50%] sm:max-md:w-[100%] sm:max-md:mt-[50px] sm:max-md:h-[80%] h-[100%]">
         <img
           src={image}
           alt=""
@@ -131,6 +135,7 @@ export default function Login() {
       rounded-tl-[100px] 
       rounded-bl-[100px] 
       mt-4 
+      sm:max-md:w-[100%]
       transition 
       z-[-1]
       duration-500 
@@ -141,8 +146,8 @@ export default function Login() {
       hover:rotate-y-6 
       hover:scale-105 
       hover:shadow-2xl 
-      hover:shadow-shadowSignColor" 
-    style={{ transformStyle: "preserve-3d" }} 
+      hover:shadow-shadowSignColor"
+          style={{ transformStyle: "preserve-3d" }}
         />
       </div>
     </div>

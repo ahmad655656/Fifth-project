@@ -80,8 +80,29 @@ module.exports = {
         aminatePhoto4: "aminatePhoto4 10s ease-in-out 1 60s alternate forwards",
         aminateBoxPhoto: "aminateBoxPhoto 10s ease-in-out 1 80s alternate forwards",
         aminatetextAbout: "aminatetextAbout 10s ease-in-out 1 80s alternate forwards",
+        aminatePhoto1Sm: "aminatePhoto1Sm 10s ease-in-out 1 0s alternate forwards",
+        aminatePhoto2Sm: "aminatePhoto2Sm 10s ease-in-out 1 20s alternate forwards",
+        aminatePhoto3Sm: "aminatePhoto3Sm 10s ease-in-out 1 40s alternate forwards",
+        aminatePhoto4Sm: "aminatePhoto3Sm 10s ease-in-out 1 60s alternate forwards",
+
       },
       keyframes: {
+        aminatePhoto1Sm:{
+          "0%": { transform: "translate(0px, 0px)" },
+          "100%": { transform: "translate(0px, 80px)", left: '41px' ,width: '310px', height: '420px', borderRadius: '20px' },
+        },
+        aminatePhoto2Sm:{
+          "0%": { transform: "translate(-50px, 0px)" },
+          "100%": { transform: "translate(0px, 80px)" ,width: '310px', left: '41px' , height: '420px', borderRadius: '20px' },
+        },
+        aminatePhoto3Sm:{
+          "0%": { transform: "translate(-50px, 0px)" },
+          "100%": { transform: "translate(0px, 80px)" ,width: '310px', left: '41px' , height: '420px', borderRadius: '20px' },
+        },
+        aminatePhoto4Sm:{
+          "0%": { transform: "translate(-50px, 0px)" },
+          "100%": { transform: "translate(0px, 80px)" ,width: '310px',left: '41px' , height: '420px', borderRadius: '20px' },
+        },
         aminatetextAbout:{
           "0%": { transform: "translate(0px, 0px)" },
           "100%": { width: '70%' },

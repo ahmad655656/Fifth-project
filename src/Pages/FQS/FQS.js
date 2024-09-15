@@ -5,9 +5,9 @@ import Questions from "../../Components/Questions/Questions";
 import { Fqs } from "../../Data";
 
 export default function FQS() {
-  return (
-    <div className="pl-[30px] pr-[90px] flex flex-col items-center w-maxWidth m-auto py-24 bg-white min-h-[240vh] sm:py-32 ">
-      <div className="text-center translate-x-[-1300px] h-[200px] w-[1140px] pr-[30px] text-center animate-aminatetext">
+  return ( 
+    <div className="sm:max-md:w-widthMobile sm:max-md:gap-[204px] sm:max-md:pr-[10px] sm:max-md:pr-0 sm:max-md:pl-[5px]  pl-[30px] pr-[90px] flex flex-col items-center w-maxWidth m-auto py-24 bg-white min-h-[240vh]">
+      <div className="text-center sm:max-md:pl-[10px]  sm:max-md:w-[372px]  translate-x-[-1300px] h-[200px] w-[1140px] pr-[30px] text-center animate-aminatetext">
         <h2 className="text-3xl font-bold tracking-tight text-firstTextColor sm:text-4xl">
           <span className="animate-aminatetext1">F</span>
           <span className="animate-aminatetext2">Q</span>
@@ -25,8 +25,8 @@ export default function FQS() {
           feel free to contact us.
         </p>
       </div>
-      <div className="w-[1000px] ml-[60px] h-[400vh] flex flex-row flex-wrap justify-between items-center">
-        {Fqs.map((fq) => <div className="w-[50%]  "><Questions question={fq.question}  answer={fq.answer} /></div>)}
+      <div className="w-[1000px] ml-[60px] sm:max-md:h-[450vh] h-[400vh] sm:max-md:ml-0 sm:max-md:gap-[40px] sm:max-md:w-[360px] flex flex-row flex-wrap justify-between items-center">
+        {Fqs.map((fq) => <div className="w-[50%] sm:max-md:w-[100%] "><Questions question={fq.question}  answer={fq.answer} /></div>)}
       </div>
     </div>
   );
