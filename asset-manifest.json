@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Fifth-project/static/css/main.d8e53973.css",
+    "main.css": "/Fifth-project/static/css/main.115716b4.css",
     "main.js": "/Fifth-project/static/js/main.23d7de62.js",
     "static/js/239.2b17afd9.chunk.js": "/Fifth-project/static/js/239.2b17afd9.chunk.js",
     "static/js/213.9873d119.chunk.js": "/Fifth-project/static/js/213.9873d119.chunk.js",
@@ -109,7 +109,7 @@
     "static/media/Frame 53.png": "/Fifth-project/static/media/Frame 53.2dd8eb046cf9cf66a24d.png",
     "static/media/Versace-removebg-preview.png": "/Fifth-project/static/media/Versace-removebg-preview.1dc44d1a088afe460564.png",
     "index.html": "/Fifth-project/index.html",
-    "main.d8e53973.css.map": "/Fifth-project/static/css/main.d8e53973.css.map",
+    "main.115716b4.css.map": "/Fifth-project/static/css/main.115716b4.css.map",
     "main.23d7de62.js.map": "/Fifth-project/static/js/main.23d7de62.js.map",
     "239.2b17afd9.chunk.js.map": "/Fifth-project/static/js/239.2b17afd9.chunk.js.map",
     "213.9873d119.chunk.js.map": "/Fifth-project/static/js/213.9873d119.chunk.js.map",
@@ -117,7 +117,7 @@
     "453.68693753.chunk.js.map": "/Fifth-project/static/js/453.68693753.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d8e53973.css",
+    "static/css/main.115716b4.css",
     "static/js/main.23d7de62.js"
   ]
 }
