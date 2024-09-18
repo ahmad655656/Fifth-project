@@ -25,7 +25,7 @@ export default function ImageListDetails() {
   }
 
   return (
-    <ImageList className="w-[100%] overflow-scroll no-scrollbar" cols={3} rowHeight={164}>
+    <ImageList className="w-[100%] sm:max-md:mx-auto overflow-scroll no-scrollbar" cols={3} rowHeight={164}>
       {productD.images.map((image, index) => (
         <ImageListItem key={index}>
           <img className="w-[100px] h-[100%] object-cover" src={image} alt={`image-${index}`} />

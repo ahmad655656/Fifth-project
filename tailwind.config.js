@@ -5,8 +5,8 @@ module.exports = {
   content: ["./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
     width: {
-      maxWidth: "1440px",
-      widthMobile: "390px",
+      maxWidth: "100vw",
+      widthMobile: "100vw",
     },
     screens: {
       sm: "208px",
@@ -89,19 +89,19 @@ module.exports = {
       keyframes: {
         aminatePhoto1Sm:{
           "0%": { transform: "translate(0px, 0px)" },
-          "100%": { transform: "translate(0px, 80px)", left: '41px' ,width: '310px', height: '420px', borderRadius: '20px' },
+          "100%": { transform: "translate(0px, 80px)", left: '22px' ,width: '89vw', height: '420px', borderRadius: '20px' },
         },
         aminatePhoto2Sm:{
           "0%": { transform: "translate(-50px, 0px)" },
-          "100%": { transform: "translate(0px, 80px)" ,width: '310px', left: '41px' , height: '420px', borderRadius: '20px' },
+          "100%": { transform: "translate(0px, 80px)" ,width: '89vw', left: '22px' , height: '420px', borderRadius: '20px' },
         },
         aminatePhoto3Sm:{
           "0%": { transform: "translate(-50px, 0px)" },
-          "100%": { transform: "translate(0px, 80px)" ,width: '310px', left: '41px' , height: '420px', borderRadius: '20px' },
+          "100%": { transform: "translate(0px, 80px)" ,width: '89vw', left: '22px' , height: '420px', borderRadius: '20px' },
         },
         aminatePhoto4Sm:{
           "0%": { transform: "translate(-50px, 0px)" },
-          "100%": { transform: "translate(0px, 80px)" ,width: '310px',left: '41px' , height: '420px', borderRadius: '20px' },
+          "100%": { transform: "translate(0px, 80px)" ,width: '89vw',left: '22px' , height: '420px', borderRadius: '20px' },
         },
         aminatetextAbout:{
           "0%": { transform: "translate(0px, 0px)" },

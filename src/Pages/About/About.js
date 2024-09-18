@@ -5,8 +5,8 @@ import photo3 from "../../assests/Cars/RangeRoverSv/FB_IMG_1725834150646.jpg";
 import photo2 from "../../assests/Cars/Bmw7Series/FB_IMG_1725834575456.jpg";
 export default function About() {
   return (
-    <div className="pl-[30px] sm:max-md:pr-[10px] sm:max-md:pr-0 sm:max-md:pl-0 pr-[90px] flex flex-col items-center sm:max-md:w-widthMobile sm:max-md:gap-[204px] w-maxWidth m-auto py-24 bg-white min-h-[140vh]">
-      <div className="text-center translate-x-[-1300px] h-[200px] sm:max-md:w-[372px] w-[1140px] sm:max-md:pl-[10px] pr-[10px] text-center animate-aminatetext">
+    <div className="pl-[30px] sm:max-md:pr-0 sm:max-md:pl-0 pr-[90px] flex flex-col items-center sm:max-md:w-widthMobile sm:max-md:gap-[204px] w-maxWidth m-auto py-24 bg-white min-h-[140vh]">
+      <div className="text-center translate-x-[-1300px] h-[200px] sm:max-md:w-[95vw] w-[1140px] pr-[10px] text-center animate-aminatetext">
         <h2 className="text-3xl font-bold tracking-tight text-firstTextColor sm:text-4xl">
           <span className="animate-aminatetext1">A</span>
           <span className="animate-aminatetext2">b</span>
@@ -44,9 +44,9 @@ export default function About() {
               alt=""
             />
           </div>
-          <div className="w-[400px] sm:max-md:w-[80%] sm:max-md:h-[80%] h-[500px] rounded-[20px] sm:max-md:left-[40px] sm:max-md:top-[30px] absolute left-[150px] top-0 bg-bgNav "></div>
+          <div className="w-[400px] sm:max-md:w-[90vw] sm:max-md:h-[80%] h-[500px] rounded-[20px] sm:max-md:left-[20px] sm:max-md:top-[30px] absolute left-[150px] top-0 bg-bgNav "></div>
        </div>
-        <div className="flex flex-col animate-aminatetextAbout sm:max-md:animate-none sm:max-md:pl-[28px] sm:max-md:items-center sm:max-md:w-[100%] sm:max-md:h-[50%] w-[60%] h-[100%] pt-[25px] sm:max-md:pr-[31px] pr-[40px] pl-[20px] items-start gap-[20px]  ">
+        <div className="flex flex-col animate-aminatetextAbout sm:max-md:animate-none  sm:max-md:items-center sm:max-md:w-[90vw] sm:max-md:h-[50%] w-[60%] h-[100%] pt-[25px] sm:max-md:pr-[31px] pr-[40px] pl-[20px] items-start gap-[20px]  ">
           <h3 className="text-[20px] sm:max-md:text-[15px] sm:max-md:text-center  font-bold text-firstTextColor ">
            <span className="text-[30px] sm:max-md:text-[25px] text-textFocus">
            Welcome to Haedara Motors</span> , where passion meets precision in the

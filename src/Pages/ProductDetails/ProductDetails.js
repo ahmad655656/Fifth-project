@@ -124,57 +124,57 @@ export default function ProductDetails() {
   return (
     <div
       key={productD.id}
-      className="w-[1200px] mt-[40px] max-h-[450vh] mx-auto mr-[170px] sm:max-md:w-widthMobile border-t-[1px] border-solid flex flex-col items-start border-secondTextColor "
+      className="w-[90vw] mt-[40px] max-h-[500vh] sm:max-md:min-h-[200vh] mx-auto sm:max-md:w-widthMobile border-t-[1px] border-solid flex flex-col items-start border-secondTextColor "
     >
-      <div className="flex flex-row items w-[1200px] ">
+      <div className="flex flex-row sm:max-md:flex-wrap sm:max-md:w-[100vw] items-center w-[1200px] ">
         <div className="w-[49%] text-left flex flex-col items-start">
           <h2 className="text-2xl font-bold text-firstTextColor">
             Collections
           </h2>
-          <div className="mt-6 w-[650px] flex gap-[10px] flex-row items-center">
-            <div className="flex flex-col h-[530px] gap-[20px] items-center w-[152px]">
-              <div className="relative h-[167px] rounded-[20px] flex flex-row items-center w-[152px] overflow-hidden">
+          <div className="mt-6 w-[650px] sm:max-md:w-[100vw] flex gap-[10px] flex-row sm:max-md:flex-col items-center">
+            <div className="flex flex-col sm:max-md:flex sm:max-md:flex-row sm:max-md:h-[300px]  h-[530px] gap-[20px] items-center w-[152px] sm:max-md:w-[90vw]  ">
+              <div className="relative h-[167px] rounded-[20px] flex flex-row items-center w-[152px] sm:max-md:w-[30%] sm:max-md:h-[100%]  overflow-hidden">
                 <img
                   src={productD.images[0]}
                   onClick={() => {
                     setImage(productD.images[0]);
                   }}
-                  className="h-[167px] w-[152px]"
+                  className="h-[167px] w-[152px] sm:max-md:w-[100%] sm:max-md:h-[100%] "
                 />
               </div>
-              <div className="relative h-[167px] rounded-[20px] flex flex-row items-center w-[152px]  overflow-hidden">
+              <div className="relative h-[167px] rounded-[20px] flex flex-row items-center w-[152px] sm:max-md:w-[30%] sm:max-md:h-[100%]   overflow-hidden">
                 <img
                   src={productD.images[1]}
                   onClick={() => {
                     setImage(productD.images[1]);
                   }}
-                  className="h-[167px] w-[152px]"
+                  className="h-[167px] w-[152px] sm:max-md:w-[100%] sm:max-md:h-[100%]"
                 />
               </div>
-              <div className="relative h-[167px] rounded-[20px] flex flex-row items-center w-[152px]  overflow-hidden">
+              <div className="relative h-[167px] rounded-[20px] flex flex-row items-center w-[152px] sm:max-md:w-[30%] sm:max-md:h-[100%]  overflow-hidden">
                 <img
                   src={productD.images[2]}
                   onClick={() => {
                     setImage(productD.images[2]);
                   }}
-                  className="h-[167px] w-[152px]"
+                  className="h-[167px] w-[152px] sm:max-md:w-[100%] sm:max-md:h-[100%]"
                 />
               </div>
             </div>
-            <div className="relative h-[530px] flex rounded-[20px] flex-row items-center w-[444px] overflow-hidden">
+            <div className="relative h-[530px] flex rounded-[20px] flex-row items-center sm:max-md:w-[90vw] sm:max-md:h-[100%] w-[444px] overflow-hidden">
               <img
                 src={image === "" ? productD.images[0] : image}
-                className="h-[530px] w-[444px]"
+                className="h-[530px] w-[444px] sm:max-md:w-[90vw] sm:max-md:h-[100%]"
               />
             </div>
           </div>
         </div>
-        <div className="w-[49%] pl-[30px] gap-[50px] flex flex-col items-start">
+        <div className="w-[49%] pl-[30px] gap-[50px] sm:max-md:pl-[20px] sm:max-md:w-[100vw] flex flex-col items-center">
           <div className="flex flex-col gap-[20px] items-start w-[100%] ">
             <div className="w-[100%] text-left mt-[45px] ">
               <h1
                 className={
-                  "h-[48px] w-fit text-left m-0 text-firstTextColor text-[40px] font-bold "
+                  "h-[48px] sm:max-md:text-[30px] text-left m-0 text-firstTextColor text-[40px] font-bold "
                 }
               >
                 {productD.model}
@@ -187,12 +187,12 @@ export default function ProductDetails() {
               ${productD.price_usd}
             </h4>
           </div>
-          <p className="w-[590px] text-[16px] text-secondTextColor opacity-40 ">
+          <p className="w-[590px] sm:max-md:w-[92vw] text-[16px] text-secondTextColor opacity-40 ">
             {productD.features.infotainment}
           </p>
           <span className="w-[90%] bg-bgMainSection h-[2px] " />
 
-          <div className="flex space-x-4">
+          <div className="flex sm:max-md:w-[90vw] space-x-4">
             <button
               className="bg-bgNav hover:bg-blue-700 text-secondTextColor font-bold py-2 px-4 rounded-[22px] "
               onClick={() => alert("Test drive scheduled!")}
@@ -216,8 +216,8 @@ export default function ProductDetails() {
 
         </div>
       </div>
-      <div className="flex flex-col items-start w-[1200px] mt-[50px] ">
-        <div className="flex flex-row items-center mr-[30px] border-b-[0.5px] border-solid border-b-secondTextColor mx-auto justify-between w-[100%] ">
+      <div className="flex flex-col items-start w-[90vw] sm:max-md:w-[100vw] mt-[50px] ">
+        <div className="flex flex-row items-center mr-[30px] border-b-[0.5px] sm:max-md:w-[100vw] sm:max-md:mx-0 sm:max-md:pr-[10px] sm:max-md:pl-[10px] border-solid border-b-secondTextColor mx-auto justify-between w-[100%] ">
           <p
             onClick={(e) => {
               handleClick(e.target);
@@ -241,14 +241,14 @@ export default function ProductDetails() {
         </div>
         <div
           style={{ display: reviews }}
-          className="flex-col gap-[20px] items-start h-[350vh]  w-[1200px] mt-[30px] "
+          className="flex-col gap-[20px] overflow-y-scroll no-scrollbar sticky sm:max-md:w-[100vw]  items-start h-[350vh] sm:max-md:h-[246vh] w-[90vw] mt-[30px] "
         >
           <div>
             <p className="text-[24px] font-extrabold text-firstTextColor ">
               All Reviews
             </p>
           </div>
-          <div className="flex flex-row gap-[20px] flex-wrap items-center w-[100%]  ">
+          <div className="flex flex-row  gap-[40px] flex-wrap items-center sm:max-md:w-[100vw] sm:max-md:flex-col mx-auto sm:max-md:items-center w-[100%]  ">
             {product.slice(0, 12).map((pr) => (
               <BigCustomerComment
                 text={pr.body}
@@ -258,11 +258,11 @@ export default function ProductDetails() {
             ))}
           </div>
         </div>
-        <div style={{ display: productDetails }} className="w-[1200px] h-[180vh] ">
-          <div className="flex flex-row items-start justify-start w-[100%]  ">
-            <div className="w-[65%] flex pt-[20px] hover:gap-[30px] transition-all ease-in-out duration-1000 flex-col items-start gap-[20px] ">
-              <h4 className="text-[15px] flex flex-row items-center relative after:absolute after:top-0 after:left-0 after:w-[100%] after:h-[100%] after:bg-hoverButton after:rounded-[5px] rounded-[5px] after:mix-blend-screen text-secondTextColor ">
-                <h1 className="text-[20px] text-textFocus font-bold">MODEL:</h1>{" "}
+        <div style={{ display: productDetails }} className="w-[1200px] sm:max-md:w-[90vw] h-[180vh] ">
+          <div className="flex flex-row sm:max-md:flex-col sm:max-md:items-center items-start justify-start w-[100%]  ">
+            <div className="w-[65%] sm:max-md:w-[99vw] sm:max-md:pl-[20px] flex pt-[20px] hover:gap-[30px] transition-all ease-in-out duration-1000 flex-col items-start gap-[20px] ">
+              <h4 className="text-[15px] flex flex-row items-center relative sm:max-md:min-h-[50px] after:absolute after:top-0 after:left-0 after:w-[100%] after:h-[100%] after:bg-hoverButton after:rounded-[5px] rounded-[5px] after:mix-blend-screen text-secondTextColor ">
+                <h1 className="text-[20px] text-textFocus font-bold">MODEL:</h1>
                 {productD.model}
               </h4>
               <h4 className="text-[15px] flex flex-row items-center relative after:absolute after:top-0 after:left-0 after:w-[100%] after:h-[100%] after:bg-hoverButton after:rounded-[5px] rounded-[5px] after:mix-blend-screen text-secondTextColor ">
@@ -316,7 +316,7 @@ export default function ProductDetails() {
                       ? "none"
                       : "flex",
                 }}
-                className="flex flex-row items-center text-[15px] relative after:absolute after:top-0 after:left-0 after:w-[100%] after:h-[100%] after:bg-hoverButton after:rounded-[5px] rounded-[5px] after:mix-blend-screen text-secondTextColor "
+                className="flex flex-row items-center sm:max-md:min-h-[50px] text-[15px] relative after:absolute after:top-0 after:left-0 after:w-[100%] after:h-[100%] after:bg-hoverButton after:rounded-[5px] rounded-[5px] after:mix-blend-screen text-secondTextColor "
               >
                 <h1 className="text-[20px] text-textFocus font-bold">
                   FEATURES_infotainment:
@@ -328,7 +328,7 @@ export default function ProductDetails() {
                   display:
                     productD.features.interior === undefined ? "none" : "flex",
                 }}
-                className=" text-[15px] flex flex-row items-center relative after:absolute after:top-0 after:left-0 after:w-[100%] after:h-[100%] after:bg-hoverButton after:rounded-[5px] rounded-[5px] after:mix-blend-screen text-secondTextColor "
+                className=" text-[15px] sm:max-md:min-h-[50px] flex flex-row items-center relative after:absolute after:top-0 after:left-0 after:w-[100%] after:h-[100%] after:bg-hoverButton after:rounded-[5px] rounded-[5px] after:mix-blend-screen text-secondTextColor "
               >
                 <h1 className="text-[20px] text-textFocus font-bold">
                   FEATURES_interior:
@@ -340,7 +340,7 @@ export default function ProductDetails() {
                   display:
                     productD.features.offroad === undefined ? "none" : "flex",
                 }}
-                className="flex flex-row items-center text-[15px] relative after:absolute after:top-0 after:left-0 after:w-[100%] after:h-[100%] after:bg-hoverButton after:rounded-[5px] rounded-[5px] after:mix-blend-screen text-secondTextColor "
+                className="flex flex-row sm:max-md:min-h-[50px] items-center text-[15px] relative after:absolute after:top-0 after:left-0 after:w-[100%] after:h-[100%] after:bg-hoverButton after:rounded-[5px] rounded-[5px] after:mix-blend-screen text-secondTextColor "
               >
                 <h1 className="text-[20px] text-textFocus font-bold">
                   FEATURES_offroad:
@@ -354,7 +354,7 @@ export default function ProductDetails() {
                       ? "none"
                       : "flex",
                 }}
-                className="text-15px] flex flex-row items-center relative after:absolute after:top-0 after:left-0 after:w-[100%] after:h-[100%] after:bg-hoverButton after:rounded-[5px] rounded-[5px] after:mix-blend-screen text-secondTextColor "
+                className="text-15px] sm:max-md:min-h-[50px] flex flex-row items-center relative after:absolute after:top-0 after:left-0 after:w-[100%] after:h-[100%] after:bg-hoverButton after:rounded-[5px] rounded-[5px] after:mix-blend-screen text-secondTextColor "
               >
                 <h1 className="text-[20px] text-textFocus font-bold">
                   FEATURES_performance:
@@ -378,7 +378,7 @@ export default function ProductDetails() {
                   display:
                     productD.features.safety === undefined ? "none" : "flex",
                 }}
-                className="text-[15px] flex flex-row items-center relative after:absolute after:top-0 after:left-0 after:w-[100%] after:h-[100%] after:bg-hoverButton after:rounded-[5px] rounded-[5px] after:mix-blend-screen text-secondTextColor "
+                className="text-[15px] sm:max-md:min-h-[50px] flex flex-row sm:max-md:min-h-[50px] items-center relative after:absolute after:top-0 after:left-0 after:w-[100%] after:h-[100%] after:bg-hoverButton after:rounded-[5px] rounded-[5px] after:mix-blend-screen text-secondTextColor "
               >
                 <h1 className="text-[20px] text-textFocus font-bold">
                   FEATURES_safety:
@@ -386,7 +386,7 @@ export default function ProductDetails() {
                 {productD.features.safety}
               </h4>
             </div>
-            <div className="w-[50%] ">
+            <div className="w-[50%] sm:max-md:m-auto sm:max-md:w-[99vw] ">
               <ImageListDetails />
             </div>
 

@@ -4,8 +4,8 @@ import { FaFacebook, FaGithub, FaInstagram, FaTwitter } from "react-icons/fa6";
 import photo from "../../assests/Frame 53.png";
 export default function Footer() {
   return (
-    <div className="w-maxWidth lg:max-xlg:absolute sm:max-md:pr-0 pr-[10px] bottom-0 sm:max-md:w-widthMobile sm:max-md:h-[300px] h-[589px] ">
-      <div className="w-[1240px] h-[180px] sm:max-md:h-[293px] sm:max-md:mr-[23px] sm:max-md:w-[358px] sm:max-md:flex-col mr-[140px] sm:max-md:items-center sm:max-md:m-auto m-auto sm:max-md:translate-y-[140px] translate-y-[80px] flex flex-row items-center rounded-[20px] bg-bgNav text-secondTextColor sm:max-md:px-[10px] sm:max-md:py-[20px] px-[36px] py-[64px] justify-between ">
+    <div className="w-maxWidth lg:max-xlg:absolute sm:max-md:pr-0 bottom-0 sm:max-md:w-widthMobile sm:max-md:h-[300px] h-[589px] ">
+      <div className="w-[1240px] h-[180px] sm:max-md:h-[293px] sm:max-md:w-[90vw] sm:max-md:mx-auto sm:max-md:flex-col sm:max-md:items-center m-auto sm:max-md:translate-y-[140px] translate-y-[80px] flex flex-row items-center rounded-[20px] bg-bgNav text-secondTextColor sm:max-md:px-[10px] sm:max-md:py-[20px] px-[36px] py-[64px] justify-between ">
         <div className="w-[551px] sm:max-md:w-[297px] sm:max-md:h-[105px] sm:max-md:text-[32px] h-[94px] text-[40px] mb-[20px] font-black ">
           STAY UPTO DATE ABOUT OUR LATEST OFFERS
         </div>
@@ -23,17 +23,17 @@ export default function Footer() {
           </button>
         </div>
       </div>
-      <div className="bg-bgheaderfooter w-maxWidth sm:max-md:pr-0 pr-[90px] pt-[150px] h-[499px] sm:max-md:w-widthMobile sm:max-md:h-[926px] sm:max-md:flex sm:max-md:flex-col sm:max-md:gap-[30px] ">
-        <div className="w-[1240px] h-[207px] m-auto flex flex-row sm:max-md:min-h-[650px] sm:max-md:pl-[30px] sm:max-md:pb-0 sm:max-md:flex-wrap sm:max-md:w-widthMobile sm:max-md:pb-[40px] border-b-solid border-b-[2px] pb-[100px] border-b-borderFooter items-center justify-between">
+      <div className="bg-bgheaderfooter w-maxWidth sm:max-md:pr-0 pt-[150px] h-[499px] sm:max-md:w-widthMobile sm:max-md:h-[926px] sm:max-md:flex sm:max-md:flex-col sm:max-md:gap-[30px] ">
+        <div className="w-[90vw] h-[207px] mx-auto flex flex-row sm:max-md:min-h-[650px] sm:max-md:pl-[20px] sm:max-md:pb-0 sm:max-md:flex-wrap sm:max-md:w-widthMobile sm:max-md:pb-[40px] border-b-solid border-b-[2px] pb-[100px] border-b-borderFooter items-center justify-between">
           <div className="w-[248px] h-[177px] sm:max-md:w-widthMobile flex flex-col items-start gap-[35px] ">
             <h2 className="font-black text-[32px] text-firstTextColor sm:max-md:text-[28.85px] ">
               SHOP.CO
             </h2>
-            <p className="text-[14px] w-[248px] h-[66px] text-secondTextColor sm:max-md:w-[356px] sm:max-md:h-[40px] ">
+            <p className="text-[14px] w-[248px] h-[66px] text-secondTextColor sm:max-md:w-[90%] sm:max-md:h-[40px] ">
               We have clothes that suits your style and which you’re proud to
               wear. From women to men.
             </p>
-            <span className="flex flex-row items-center w-[184px] sm:max-md:w-[148px] h-[28px] gap-[12px] hover:gap-[20px] transition-all duration-500 ease-in-out ">
+            <span className="flex flex-row items-center w-[184px] sm:max-md:w-[60%] h-[28px] gap-[12px] hover:gap-[20px] transition-all duration-500 ease-in-out ">
               <FaTwitter className="hover:w-[38px] hover:h-[38px] transition-all duration-500 ease-in-out w-[28px] h-[28px] bg-bgTheardSection text-firstTextColor cursor-pointer rounded-[50%] text-[15px] p-[4px] " />
               <FaFacebook className="hover:w-[38px] hover:h-[38px] transition-all duration-500 ease-in-out w-[28px] h-[28px] bg-bgTheardSection text-firstTextColor cursor-pointer rounded-[50%] text-[15px] p-[4px] " />
               <FaInstagram className="hover:w-[38px] hover:h-[38px] transition-all duration-500 ease-in-out text-[15px] p-[4px] w-[28px] h-[28px] text-firstTextColor cursor-pointer bg-bgTheardSection rounded-[50%] " />
@@ -117,7 +117,7 @@ export default function Footer() {
             </div>
           </div>
         </div>
-        <div className="flex flex-row items-center sm:max-md:w-widthMobile sm:max-md:flex-col sm:max-md:items-center sm:max-md:pb-[30px] sm:max-md:mt-0 sm:max-md:gap-[10px] justify-between m-auto mt-[30px] w-[1240px] ">
+        <div className="flex flex-row items-center sm:max-md:w-[100vw] sm:max-md:flex-col sm:max-md:items-center sm:max-md:pb-[30px] sm:max-md:mt-0 sm:max-md:gap-[10px] justify-between m-auto mt-[30px] w-[1240px] ">
           <h4 className="text-[14px] font-light text-secondTextColor  w-[269px] h-[19px] sm:max-md:text-[14px]  ">
             Shop.co © 2000-2023, All Rights Reserved
           </h4>

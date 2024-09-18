@@ -5,6 +5,7 @@
 
 #root{
   overflow-x: hidden;
+  scrollbar-width: none;
 }
 div:where(.swal2-container) .swal2-html-container{
   padding: 0 !important;

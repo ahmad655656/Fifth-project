@@ -38,7 +38,7 @@ function App() {
   }
   return (
     <Router>
-      <div className="bg-bgMainSection relative flex flex-col items-center mx-auto lg:overflow-x-hidden lg:no-scrollbar w-maxWidth sm:max-md:w-widthMobile min-h-[100vh]  ">
+      <div className="bg-bgMainSection relative flex flex-col items-center lg:overflow-x-hidden lg:no-scrollbar w-maxWidth sm:max-md:w-widthMobile min-h-[100vh]  ">
       <Navbar />
       <div className='w-[100%] min-h-[100vh] '>
       <Routes>

@@ -10,7 +10,7 @@ export default function Contact() {
 
   return (
     <div className="pl-[30px] sm:max-md:pl-[20px] sm:max-md:w-widthMobile sm:max-md:pr-[30px] pr-[80px] flex flex-col items-center w-maxWidth m-auto py-24 bg-white sm:max-md:min-h-[130vh] min-h-[240vh] sm:py-32">
-      <div className="max-w-2xl mx-auto translate-x-[-1000px] animate-aminatetext text-center">
+      <div className="max-w-2xl sm:max-md:w-[90vw] mx-auto translate-x-[-1000px] animate-aminatetext text-center">
         <h2 className="text-3xl font-bold tracking-tight text-firstTextColor sm:text-4xl">
         <span className="animate-aminatetext1">C</span>
           <span className="animate-aminatetext2">o</span>
