@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Fifth-project/static/css/main.9244b360.css",
-    "main.js": "/Fifth-project/static/js/main.9d0fbc9a.js",
+    "main.css": "/Fifth-project/static/css/main.a58bfdef.css",
+    "main.js": "/Fifth-project/static/js/main.7721b5b5.js",
     "static/js/239.2b17afd9.chunk.js": "/Fifth-project/static/js/239.2b17afd9.chunk.js",
     "static/js/213.9873d119.chunk.js": "/Fifth-project/static/js/213.9873d119.chunk.js",
     "static/js/732.be7fbf8b.chunk.js": "/Fifth-project/static/js/732.be7fbf8b.chunk.js",
@@ -113,15 +113,15 @@
     "static/media/bu-removebg-preview.png": "/Fifth-project/static/media/bu-removebg-preview.c96dfbf768d6d61bb52f.png",
     "static/media/Frame 53.png": "/Fifth-project/static/media/Frame 53.2dd8eb046cf9cf66a24d.png",
     "index.html": "/Fifth-project/index.html",
-    "main.9244b360.css.map": "/Fifth-project/static/css/main.9244b360.css.map",
-    "main.9d0fbc9a.js.map": "/Fifth-project/static/js/main.9d0fbc9a.js.map",
+    "main.a58bfdef.css.map": "/Fifth-project/static/css/main.a58bfdef.css.map",
+    "main.7721b5b5.js.map": "/Fifth-project/static/js/main.7721b5b5.js.map",
     "239.2b17afd9.chunk.js.map": "/Fifth-project/static/js/239.2b17afd9.chunk.js.map",
     "213.9873d119.chunk.js.map": "/Fifth-project/static/js/213.9873d119.chunk.js.map",
     "732.be7fbf8b.chunk.js.map": "/Fifth-project/static/js/732.be7fbf8b.chunk.js.map",
     "453.68693753.chunk.js.map": "/Fifth-project/static/js/453.68693753.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9244b360.css",
-    "static/js/main.9d0fbc9a.js"
+    "static/css/main.a58bfdef.css",
+    "static/js/main.7721b5b5.js"
   ]
 }
